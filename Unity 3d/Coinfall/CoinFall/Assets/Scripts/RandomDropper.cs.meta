@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 59ce3c8388106e9428a6f7cc3027c9d5
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - dogecoin: {fileID: 400000, guid: 99d0e2ed3c8c5dc4e91a1467ba528b5d, type: 2}
+  - bitcoin: {fileID: 400000, guid: 3a0319eac8fe7b549b180362a30bff44, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

@@ -1,0 +1,244 @@
+import java.awt.AWTException;
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.Graphics;
+import java.awt.Image;
+import java.awt.MouseInfo;
+import java.awt.Point;
+import java.awt.PointerInfo;
+import java.awt.Rectangle;
+import java.awt.Robot;
+import java.awt.Toolkit;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+
+import javax.imageio.ImageIO;
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+
+
+public class ImageInJframe extends JFrame
+{
+	
+	public static void main(String args[])
+	{
+		new ImageInJframe().start();
+	}
+	
+	public void start()
+	{
+		
+		Graphics bufG;
+		 Robot bot2 = null;
+		 JFrame jframe = new JFrame("Testing Image");
+		 JPanel panel = new JPanel();
+		 JLabel picLabel;
+		 
+		 
+		 
+		 try {
+			bot2 = new Robot();
+		} catch (AWTException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		 
+		Dimension screenSize =  Toolkit.getDefaultToolkit().getScreenSize();
+		double w = screenSize.getWidth();
+		double h = screenSize.getHeight();
+		     
+		int nw = (int) ((w * .5) - 50);
+		int nh = (int) ((h * .5) - 50);
+		 
+		Rectangle rect = new Rectangle( Toolkit.getDefaultToolkit().getScreenSize() );
+		Rectangle rect2 = new Rectangle(nw, nh, 100, 100);
+		Rectangle rect3 = new Rectangle(nw, nh, 300, 100);
+		
+		
+		
+	     BufferedImage newImage = bot2.createScreenCapture(rect2);
+	     BufferedImage newImage2 = bot2.createScreenCapture(rect3);
+	     
+	     
+	     /*
+	     JLabel jLabel = new JLabel(new ImageIcon(newImage2));
+         
+         JPanel jPanel = new JPanel();
+         jPanel.add(jLabel);
+         jframe.add(jPanel);
+         jframe.setVisible(true);
+         jframe.setSize(500, 500);
+        */
+	     
+	     RunImageCapture ric = new RunImageCapture();
+	     
+	     
+	     (new Thread(ric)).start();
+	     
+	              
+         
+	     
+	    File outputfile = new File("Images/saved.png");
+	    try {
+			ImageIO.write(newImage, "png", outputfile);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	     
+	    
+	    int[] arrayofrgb =  newImage.getRGB(0, 0,  newImage.getWidth(), newImage.getHeight(), null, 0, (int) newImage.getWidth());
+	    
+	    
+	    
+	    Color mycolor = new Color(arrayofrgb[0]);
+	    
+		ImageImplement panel3 = new ImageImplement(newImage);
+		  add(panel3);
+		  add(new JLabel("Array Count"+arrayofrgb.length));
+		  setVisible(true);
+		  setSize(400,400);
+		  setDefaultCloseOperation(EXIT_ON_CLOSE);
+		  
+		
+	}
+
+}
+
+
+class RunImageCapture extends Thread {
+	
+	JFrame jframe = new JFrame();
+	JPanel jpanel = new JPanel(); 
+	
+	Dimension screenSize =  Toolkit.getDefaultToolkit().getScreenSize();
+	double w = screenSize.getWidth();
+	double h = screenSize.getHeight();
+	     
+	int nw = (int) ((w * .5) - 50);
+	int nh = (int) ((h * .5) - 50);
+	 
+	Rectangle rect3 = new Rectangle(nw, nh, 300, 100);
+	
+	boolean running = true;
+	int runtimes = 0;
+	
+	public void run() {
+        Start();
+    }
+	
+	public void Start() {
+		
+		while(running) 
+		{
+			try {
+			    Thread.sleep(500);      //1000 milliseconds is one second.     
+			    DisplayImage();
+			} catch(InterruptedException ex) {
+			    Thread.currentThread().interrupt();
+			}
+		}
+		
+	}
+	
+	public void DisplayImage() {
+		
+		jpanel.removeAll();
+		jframe.getContentPane().removeAll();
+		
+			runtimes++;
+			Robot bot2 = null;
+			
+			try {
+				bot2 = new Robot();
+			} catch (AWTException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		
+			
+			
+		 BufferedImage newImage2 = bot2.createScreenCapture(rect3);
+		
+
+		 PointerInfo a = MouseInfo.getPointerInfo();
+		 Point b = a.getLocation();
+		 
+		 int pointerx = 0;
+		 int pointery = 0;
+		 
+		 System.out.println("Width="+nw+" Height="+nh);
+		
+		 
+		 if(b.x > nw + 10 && b.x < nw + 300 - 10)
+		 {
+			 pointerx = b.x - nw;
+			 
+			
+		 }
+		 
+		 if(b.y > nh + 10 && b.y < nh + 100 - 10)
+		 {
+			 
+			 pointery = b.y - nh;
+			 
+		 }
+		 
+		 
+		 System.out.println("X="+b.x+" Y="+b.y+"PointerWidth="+pointerx+" PointH="+pointery);
+		 
+
+		 Color color = new Color(0,0,0);
+		 int arrayofrgb = color.getRGB();
+		 int[] rgbarray = new int[10];
+		 
+		 for(int r = 0; r<10; r++)
+		 {
+		
+			 rgbarray[r] = arrayofrgb;
+		 }
+		 
+		 
+		 
+		 
+		 newImage2.setRGB(pointerx, pointery, 10, 10, rgbarray, 0, 0);
+		 
+
+		 
+		 jpanel.add( new JLabel( new ImageIcon(newImage2)));
+		 jpanel.add( new JLabel(""+runtimes));
+		 jframe.add(jpanel);
+		 jframe.setVisible(true);
+		 jframe.setSize(400,400);
+		 
+	}
+	
+	
+}
+
+
+
+class ImageImplement extends JPanel {
+
+	  private Image img;
+
+
+	  public ImageImplement(Image img) {
+	    this.img = img;
+	    Dimension size = new Dimension(img.getWidth(null), img.getHeight(null));
+	    setPreferredSize(size);
+	    setMinimumSize(size);
+	    setMaximumSize(size);
+	    setSize(size);
+	    setLayout(null);
+	  }
+
+	  public void paintComponent(Graphics g) {
+	    g.drawImage(img, 0, 0, null);
+	  }
+
+	}

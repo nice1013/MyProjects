@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 2fc7dbc3656b5924191d06db70922d51
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - TitleImage: {instanceID: 0}
+  - CopyDogecoin: {instanceID: 0}
+  - CopyBitcoin: {instanceID: 0}
+  - FrontMenuSkin: {fileID: 11400000, guid: 2a5fdedcd0d760d4c9695d6e4958dc98, type: 2}
+  - NotSignedInSkin: {fileID: 11400000, guid: 9597a14c39d46bb4aa37dcc8120e32d0, type: 2}
+  - SignedInSkin: {instanceID: 0}
+  - FactSkin: {instanceID: 0}
+  - errorGuiSkin: {instanceID: 0}
+  - Admanager: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

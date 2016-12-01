@@ -1,0 +1,19 @@
+-[Fixed 5-12-15]Bigger Explosions 
+-Fix Enemy/Player explosions. Not at right point in code. Doing it for both, it should only do it for one.
+-[Fixed 5-12-15]Rotate Objects to an angle for a better 3d view. 
+
+
+Tutorial
+
+Spin/Grow/Spawn Player's Object. 
+inform player "Touch Object to select it. 
+Next - 
+S/G/S Empty Object, 
+Inform player To Attack, Just press the Enemies Object. 
+
+
+Explode Formula 
+
+Explodes at 200 men. 
+Every Second, value of planetSize + 2 are taken from this value. 
+In 60 (180 men may attack this planet). 

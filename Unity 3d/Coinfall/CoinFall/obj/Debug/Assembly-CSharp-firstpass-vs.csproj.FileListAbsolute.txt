@@ -1,0 +1,12 @@
+E:\UnityProjects\CoinFall\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+E:\UnityProjects\CoinFall\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+E:\UnityProjects\CoinFall\Temp\bin\Debug\GPGSUtils.dll
+E:\UnityProjects\CoinFall\Temp\bin\Debug\UnityEditor.dll
+E:\UnityProjects\CoinFall\Temp\bin\Debug\UnityEngine.dll
+E:\UnityProjects\CoinFall\Temp\bin\Debug\Mono.Cecil.dll
+E:\UnityProjects\CoinFall\Temp\bin\Debug\nunit.framework.dll
+E:\UnityProjects\CoinFall\Temp\bin\Debug\Unity.DataContract.dll
+E:\UnityProjects\CoinFall\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+E:\UnityProjects\CoinFall\obj\Debug\Assembly-CSharp-firstpass-vs.csprojResolveAssemblyReference.cache
+E:\UnityProjects\CoinFall\obj\Debug\Assembly-CSharp-firstpass.dll
+E:\UnityProjects\CoinFall\obj\Debug\Assembly-CSharp-firstpass.pdb

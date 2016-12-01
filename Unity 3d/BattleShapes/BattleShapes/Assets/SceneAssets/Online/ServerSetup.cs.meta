@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: c3be167844a2e1343a4cead11caa1584
+timeCreated: 1431845506
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - PlanetPrefab: {fileID: 136220, guid: bc869fae8a584514fa46f17304f52a85, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

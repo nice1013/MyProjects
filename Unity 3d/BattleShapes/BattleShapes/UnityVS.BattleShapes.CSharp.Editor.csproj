@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C8205332-868D-25D9-C213-B63390164472}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_0_1;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_0_1;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\UnityAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WP8.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.WP8.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Metro.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Metro.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.BB10.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.BB10.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.WebGL.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.LinuxStandalone.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.OSXStandalone.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>Assets\Everything\HSV-Color-Picker-Unity-master\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Messaging">
+      <HintPath>Assets\Everything\HSV-Color-Picker-Unity-master\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityVS.VersionSpecific">
+      <HintPath>Assets\Everything\HSV-Color-Picker-Unity-master\Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\Editor\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UnityVS.BattleShapes.CSharp.csproj">
+      <Project>{321FB546-0C8E-9773-2B79-3293C41FA29F}</Project>
+      <Name>UnityVS.BattleShapes.CSharp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Everything\HSV-Color-Picker-Unity-master\Assets\HSVPicker\Editor\BoxSliderEditor.cs" />
+    <Compile Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\ShaderGenerator\Editor\AdvancedSSUtils.cs" />
+    <Compile Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\ShaderGenerator\Editor\ShaderGenerator.cs" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Documentation.txt" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\AdvancedSS.cginc" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\AdvancedSSFunctions.cginc" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Bump\Bumped.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Bump\Bumped-Ramp.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Bump\BumpedSpecMap.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Bump\BumpedSpecular.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Bump\BumpedSpecular-Ramp.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Bump\Reflect-BumpedSpecMapEmissive.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Bump\Reflect-BumpedSpecular.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Bump\Reflect-BumpedSpecularEmissive.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Mobile\Bump\Mobile-Bumped.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Mobile\Bump\Mobile-BumpedSpecMap.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Mobile\Bump\Mobile-BumpedSpecularRim.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Mobile\Standard\Mobile-DiffuseEmissive-Ramp.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Mobile\Standard\Mobile-DiffuseGlossMapEmissive-Ramp.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Mobile\Standard\Mobile-DiffuseRim.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Mobile\Standard\Mobile-DiffuseSpecMap.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Mobile\Standard\Mobile-DiffuseSpecularEmissive-Ramp.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Mobile\Standard\Mobile-DiffuseSpecularRim.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Mobile\Standard\Mobile-Reflect-DiffuseSpecular.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\ParallaxOcclusion\ParallaxOcclusion.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\ParallaxOcclusion\ParallaxOcclusionSpecMap.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\ParallaxOcclusion\ParallaxOcclusionSpecular.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\RCSM\RCSM.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\RCSM\RCSMSpecular.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\RCSM\Reflect-RCSMSpecMap.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\RCSM\Reflect-RCSMSpecular.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Skin\SkinShading.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Skin\SkinShading-GlossMap.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Skin\SkinShading-SpecMap.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Standard\Alpha-DiffuseSpecular.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Standard\DiffuseGlossMap.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Standard\Diffuse-Ramp.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Standard\DiffuseRim-Ramp.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Standard\DiffuseSpecMap.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Standard\DiffuseSpecular.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Standard\DiffuseSpecular-Ramp.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Standard\DiffuseSpecularRim.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Standard\DiffuseSpecularRim-Ramp.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Standard\Reflect-Diffuse.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Standard\Reflect-DiffuseEmissive.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Standard\Reflect-DiffuseSpecMap.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Standard\Reflect-DiffuseSpecular.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\TessellationMapDistance\Bump\BumpedSpecular.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\TessellationMapDistance\Bump\Reflect-BumpedSpecMap.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\TessellationMapDistance\Bump\Reflect-BumpedSpecular.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\TessellationMapDistance\Reflect-TessellationMapDistanceSpecMap.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\TessellationMapEdgeLength\Alpha-TessellationMapEdgeLengthSpecular.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\TessellationMapEdgeLength\AlphaTest-Reflect-TessellationMapEdgeLengthSpecular.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\TessellationMapEdgeLength\Bump\Reflect-BumpedSpecMap.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\TessellationMapEdgeLength\Reflect-TessellationMapEdgeLengthSpecular.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\TessellationMapFixed\Bump\Reflect-BumpedSpecMap.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\TessellationMapFixed\TessellationMapFixed.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\TessellationPhong\Alpha-TessellationPhongSpecular.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\TessellationPhong\Reflect-TessellationPhongSpecMap-Ramp.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Triplanar\RunningWater.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Triplanar\TriplanarBumpedLocal.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Triplanar\TriplanarBumpedLocalRim.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Triplanar\TriplanarBumpedWorld.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Triplanar\TriplanarBumpedWorldRim.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Triplanar\TriplanarLocal.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Triplanar\TriplanarLocalRim.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Triplanar\TriplanarWorld.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\Shaders\Triplanar\TriplanarWorldRim.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\VolumetricObjects\BoxVolume\BoxVolume.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\VolumetricObjects\ConeVolume\ConeVolume.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\VolumetricObjects\ConeVolumeOcclusion\ConeVolumeOcclusion.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\VolumetricObjects\ConeVolumeOcclusion\DrawDepth.shader" />
+    <None Include="Assets\Resources\Shaders\AdvancedSurfaceShaders\VolumetricObjects\SphereVolume\SphereVolume.shader" />
+    <None Include="Assets\SkySystem\shader\NewShader.shader" />
+    <None Include="Assets\Everything\HSV-Color-Picker-Unity-master\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll" />
+    <None Include="Assets\Everything\HSV-Color-Picker-Unity-master\Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll" />
+    <None Include="Assets\Everything\HSV-Color-Picker-Unity-master\Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll" />
+    <None Include="C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\Editor\UnityEditor.UI.dll" />
+    <None Include="C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
+</Project>

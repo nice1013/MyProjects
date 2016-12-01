@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 8d6a06aa4d11c04479648218967e034c
+timeCreated: 1434118375
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - planetShader: {fileID: 4800000, guid: b278e36540c01af4b99d4c24fd0e3956, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

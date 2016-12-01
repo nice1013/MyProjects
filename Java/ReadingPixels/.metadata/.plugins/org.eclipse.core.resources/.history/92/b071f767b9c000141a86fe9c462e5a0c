@@ -1,0 +1,64 @@
+import java.awt.AWTException;
+import java.awt.BorderLayout;
+import java.awt.FlowLayout;
+import java.awt.Robot;
+
+import javax.swing.*;
+
+public class ReadScreen {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+		try {
+			Robot bot = new Robot();
+			
+			
+			for(int i = 0; i<100; i++)
+			{
+				try {
+				    Thread.sleep(1000);                 //1000 milliseconds is one second.
+				} catch(InterruptedException ex) {
+				    Thread.currentThread().interrupt();
+				}
+			bot.mouseMove(i * 100, 0);
+			}
+			
+		} catch (AWTException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		
+		
+		//Createing a JFrame 
+		JFrame frame = new JFrame("JFrame Demo");
+		
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		frame.pack();
+		frame.setSize(600, 500);
+		
+		
+		JPanel p = new JPanel();
+		p.setLayout(new FlowLayout());
+		
+		
+		frame.getContentPane().add(p, BorderLayout.CENTER);
+		
+		
+		JLabel newLabel = new JLabel("Hello Bitches");
+		
+		p.add(newLabel, BorderLayout.CENTER);
+		
+		
+		frame.setVisible(true);
+		
+		
+		
+	}
+
+}

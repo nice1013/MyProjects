@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 345583a3bb8a5a745b65938c45e5b749
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - customSkin: {instanceID: 0}
+  - HudSkin: {instanceID: 0}
+  - FactSkin: {instanceID: 0}
+  - StatsSkin: {instanceID: 0}
+  - MultiSkin: {instanceID: 0}
+  - BlankButtonSkin: {fileID: 11400000, guid: 3a53b1a5286b22e48aa145f24390dd9d, type: 2}
+  - PauseImage: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
