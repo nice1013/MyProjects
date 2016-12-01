@@ -1,0 +1,382 @@
+@charset "utf-8";
+/* CSS Document 
+
+
+-Top Elements 
+--body 
+--body/#Body2
+-
+
+-FirstContentDivs
+--Header
+--timelineHolder
+
+
+--Header Lower Levels
+	--- UImenu
+		----Buttons
+	--- Title
+	
+	
+
+		
+
+
+
+
+*/
+
+/* Top Elements body & body2 
+
+body and body2 allow us to make the background move. 
+these items are both bare and are only modified with css. 
+
+ */
+body {
+	position:relative;
+	color:white;
+	height:100%;
+	min-width:1200px;
+	background-image:url(Images/space.gif);
+	background-size:cover;
+	padding:0px;
+	margin:0px;
+}
+
+
+#body2 {
+	
+
+	width:100%;
+	height:100%;
+	position:relative;
+	background-image:url(Images/clearStars.png);
+	background-size:cover;
+	padding:0px;
+	margin:0px;
+}
+
+/*End Top Elements body & body2*/
+
+
+
+/*  Top Layers  -- Css Location : body/#Body2/
+These are the Top layers, Header, timelineHolder, and Footer. 
+All content resides inside one these three divs. 
+*/
+
+#molding {
+	background:url(Images/horizontal_white_bar2.png);
+	background-size:contain;
+	
+}
+
+#molding2 {
+	background:url(Images/horizontal_white_bar.png);
+	background-size:contain;
+	float:left;
+	clear:both;
+	width:100%;
+	
+}
+
+#Header {
+	
+	width:100%; 
+	height:150px;
+	box-sizing:border-box;
+	background:url(Images/white.png);
+	background-size:contain;
+	float:left;
+
+	
+		
+}
+
+
+
+div #timelineHolder {
+	float:right;
+	position:relative;
+	box-sizing:border-box;
+	width:100%;
+	border-bottom: 1px solid #A505D8;	
+	
+}
+
+
+#Footer {
+	position:relative;
+	width:100%;
+	float:left;
+	background:url(Images/white.png);
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+/* End Top layers Css */
+
+
+
+
+
+/* 1 layer down. Inside #header :: Css Location -- body/#Body2/#Header/
+
+We have Title, windowHolder, and UImenu. 
+
+Title: holds the name of the site or logo
+windowHolder: Holds the earthimg, dogerocket, and moon, to create a window effect. 
+UImenu: holds our tabs and links. 
+
+
+
+
+Header Lower Levels [Title and UImenu]*/
+#title {
+	position:relative;
+	height:75%; 
+	width:33%;
+	
+	box-sizing:border-box;
+	float:left;
+	
+	font-size:1.6em;
+	background:url(Images/redtint_metal_bars.png);
+	
+	
+	
+	border:2px outset #5c5e60;
+	
+	margin-left:15px;
+	margin-top:15px;
+	
+	
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+
+	-webkit-box-shadow: inset 0px 4px 42px 7px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 4px 42px 7px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 4px 42px 7px rgba(0,0,0,0.75);
+
+	-webkit-box-shadow:  0px 4px 42px 7px rgba(0,0,0,0.75);
+	-moz-box-shadow:  0px 4px 42px 7px rgba(0,0,0,0.75);
+	box-shadow:  0px 4px 42px 7px rgba(0,0,0,0.75);
+
+
+}
+
+
+div .windowHolder {
+	
+	float:left;
+	width:33%;
+	height:75%;
+	box-sizing:border-box;
+	position:relative;
+	padding:5px;
+	background:url(Images/space.gif);
+	border: 2px inset #5c5e60;
+	margin:auto;
+	margin-top:15px;
+	
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+}
+
+    
+
+#UImenu {
+	
+	float:right;
+	width:25%;
+	height:100%;
+	box-sizing:border-box;
+	position:relative;
+	
+}
+/* Ending Header Lower Levels [Title and UImenu]*/
+
+
+
+
+
+/*  2 layers Down -- Inside #Title  :: Css Location -- body/#Body2/#Header/#title/
+
+We have H1*/
+
+#title h1 {
+	
+	text-align:center;
+	height:90%;
+	margin-top:5%;
+	
+}
+
+/*Ending Inside Title			*/
+
+
+
+
+
+
+
+
+/* for Inside .windowHolder -- Css Location: body/#Body2/#Header/.windowHolder
+
+Details ->>>>>>>
+		.windowHolder holds, #window. 
+		#window holds, .windowImage --#moon, #earth
+End ->>>>>>>>>>>
+*/
+	
+#glassEffect {
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	background:url(Images/transparentglass.png);
+	background-size:cover;
+	width:80%;
+	height:90%;
+	
+}
+
+
+.windowImage {
+
+	float:left;
+	height:100%;
+	width:33.3%;
+	
+}
+
+#moon {
+	
+	float:right;
+	height:50px;
+	width:50px;
+	margin-top:25px;
+	
+}
+
+#rocket {
+	float:left;
+	height:50px;
+	width:50px;
+	margin-top:25px;
+	
+}
+
+#earth {
+	
+	height:25px;
+	width:25px; 
+	float:left;
+	margin-top:5px;
+	margin-right:75px;
+	margin-left:15px;
+	
+}
+
+
+/* Ending for .windowHolder */
+
+
+
+
+
+
+
+
+/*  2 layers Down -- Inside UI Menu :: Css Location -- body/#Body2/#Header/#UImenu/
+
+We have a table #menuButtons, div #buttons, and links.
+
+*/
+#menuButtons {
+
+float:right;
+width:200px;
+height:75px;
+	
+}
+
+#menuButtons a{
+	
+	color:white;
+	text-align:center;
+}
+
+#buttonHolder {
+	width:100px;
+	min-height:50px;
+	height:50px;
+	min-width:100px;
+	
+}
+
+
+.button {
+	background:url(Images/space.gif);
+	width:100px;
+	min-height:50px;
+	height:50px;
+	min-width:100px;
+	border:2px inset #666666;
+	
+}
+
+.button p, .button div {
+
+	width:100%;
+	height:50px;	
+	padding:0px;
+	margin:0px;
+}
+/* Ending Inside UIMenu Css */
+
+
+
+
+/* for Inside #Footer :: Css Location -- body/#Body2/#Footer/   */
+
+#Footer ul {
+	
+	text-align:center;
+	padding:0px;
+	margin:0px;
+	
+	
+}
+
+#Footer #glassEffect {
+	
+	margin:auto;
+	padding:5px;
+	box-sizing:border-box;
+	
+}
+
+
+#Footer ul li {
+
+display:inline;	
+	
+	
+}
+
+#Footer .windowHolder {
+	float:none;
+	margin:auto;
+	min-height:50px;
+	width:50%;
+}
+
+
+/* Ending Inside #Footer */
+
+
+

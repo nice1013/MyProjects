@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.contactinfo {
+	height: 30%; 
+	width: auto;
+	
+	border-top:inset; 
+	border-top:thin;
+	
+				
+
+
+} 
+
+
+.contactinfo  h2, h3 {
+	
+	 
+	
+	
+	font-size:14px;
+
+
+}
+
+
+.form { 
+
+
+	
+	float: right;	
+	width: 75%;  
+	
+
+	
+	
+	
+
+} 

@@ -1,0 +1,23 @@
+DDA HOW? 
+
+Step 1 is simulation....... 
+Developing algarythm to find shortest route for drivers. 
+
+Create a google map view. 
+
+With fixed position shops. 
+
+Drivers That simulate Driving and real time delivery. 
+
+Simulate 
+
+
+Pesuedo Code: 
+
+Shop#1 needs driver to be at store in 15 minutes @ 2:45 . 
+
+computer ask who is with-in 15 minutes range. with-in 
+
+Ask Who Is Waiting. 
+
+Ask Who Is Closest.

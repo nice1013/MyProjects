@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+#bname {
+	font-family:beer;
+font-weight:normal;
+font-size:4.5em;
+color:#06f;
+padding:0px;
+margin:0px;
+padding-left:15px;
+letter-spacing:5px;
+}
+
+#num { 
+font-size:2.0em;
+padding-right:15px;
+text-align:right;
+} 
+
+#bname span { 
+font-size:.2em;
+}
+
+
+#header table { 
+width:100%;
+}
+
+#header h3 { 
+font-size:32px;
+text-align:right;
+padding-right:15px;
+} 
+
+.logo img { 
+float:left;
+width:100%;
+height:100%;
+position:relative;
+} 
+
+
+#header { 
+	background-color:#FFF;
+	float:left;
+	width:100%;
+} 

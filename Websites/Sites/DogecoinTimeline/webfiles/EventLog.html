@@ -1,0 +1,249 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dogecoin Timeline</title>
+
+<link href="../index.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<div id="body2">
+
+<div id="molding">
+<br>
+</div>
+
+
+
+<div id="Header">
+
+	<div id="title">
+	<h1>Ðogecoin Timeline</h1>
+    </div>
+
+	<div id="windowHolder">
+    
+    	<div id="glassEffect">
+		
+        </div>
+    
+    
+        <img class="windowImage" id="earth" src="../Images/Rotating_earth_(large).gif" alt="Earth" />
+        <img class="windowImage" id="rocket" src="../Images/flyingRocket.gif" alt="Doge Rocket" />
+        <img class="windowImage" id="moon" src="../Images/Moon-01-june.gif" alt="Moon" />
+    </div>
+    
+    
+    <div id="UImenu">
+
+
+	<table id="menuButtons">
+    
+    
+    <tr>
+    
+        
+        <td class="buttonHolder">
+        <!-- Image Link goes here -->
+        <div class="button" id="blue">
+       	<a href="EventLog.html" >
+        <p>Detailed <br>Log</p></a>
+        </div>
+        </td>
+        
+        
+        
+   		<td class="buttonHolder">
+        <!-- Image Link goes here -->
+        <div class="button" id="red">
+        <a href="../index.html" >
+        <p>Greatest <br>Moments</p>
+        </a>
+        </div>  	
+        </td>
+        
+        
+        
+        
+        <td class="buttonHolder">
+    	<!-- Image Link goes here -->
+    	<div class="button" id="green">
+    	<a href="FutureEvents.html" >
+    	<p>Upcoming <br>Events</p></a>
+    	</div>
+    	</td>
+    	
+    
+    
+	</tr>
+    </table><!--Ending Table of menuButtons -->
+    
+    
+    
+    
+    
+    
+    
+    
+    </div><!-- End UI menu -->
+	
+</div><!-- ENd Header -->
+
+
+<div id="molding2">
+<br>
+</div>
+
+<div id="timelineHolder">
+
+
+    <div id="timeline-embed"></div>
+    <link rel="stylesheet" type="text/css" href="../DTcss/dark.css">
+    
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    
+    
+	<script type="text/javascript" src="http://cdn.knightlab.com/libs/timeline/latest/js/storyjs-embed.js"></script>
+        
+    <script type="text/javascript">
+	
+		
+            $(document).ready(function() {
+                createStoryJS({
+                    type:       'timeline',
+                    width:      '100%',
+                    height:     '600',
+                    source:     'https://docs.google.com/spreadsheet/pub?key=0At3GjVZJ_LVrdHNhTlVnRXRPcnBUYXdMZURweXJhUnc&output=html',
+                    embed_id:   'timeline-embed'
+                });
+            });
+
+        
+		/*
+         createStoryJS({
+            width:              '100%',
+            height:             '600',
+            source:             'https://docs.google.com/spreadsheet/pub?key=0At3GjVZJ_LVrdFktT0VURUhpWFJyZmhhM2ZKVUQzVHc&output=html',
+            embed_id:           'timeline-embed',               //OPTIONAL USE A DIFFERENT DIV ID FOR EMBED
+            start_at_end:       true,                          //OPTIONAL START AT LATEST DATE
+            start_at_slide:     '15',                            //OPTIONAL START AT SPECIFIC SLIDE
+            start_zoom_adjust:  '3',                            //OPTIONAL TWEAK THE DEFAULT ZOOM LEVEL
+            hash_bookmark:      true,                           //OPTIONAL LOCATION BAR HASHES
+            font:               'Bevan-PotanoSans',             //OPTIONAL FONT
+            debug:              false,                           //OPTIONAL DEBUG TO CONSOLE
+            lang:               'en',                           //OPTIONAL LANGUAGE
+            maptype:            'watercolor',                   //OPTIONAL MAP STYLE
+            css:                'dark.css',     //OPTIONAL PATH TO CSS
+            //js:                 'path_to_js/timeline-min.js'    //OPTIONAL PATH TO JS
+        });*/
+		
+		$(document).ready(function() {
+			//setting up vars for rocket movement
+			margintomove = 0;
+			countup = true;
+			
+			
+			
+			
+			
+
+			});
+				
+				
+		//space effect
+		$("body").mousemove(function( event ) {
+		var msg = "Handler for .mousemove() called at ";
+		msg += event.pageX + ", " + event.pageY;
+		
+		pagex = (event.pageX) / 4;
+		
+		pagey = (event.pageY / 5) / 5;
+		
+		whattomove = pagex + "px " + pagey + "px";
+		whattomove2 =  (-1 * pagex ) + "px " + (-1 * pagey ) + "px";
+		
+		
+		$('#body2').css('background-position', whattomove);
+		$('body').css('background-position', whattomove2);
+		$('#windowHolder').css('background-position', whattomove2);
+		
+		whattomove2 =  (-1 * pagex + 400) + "px " + (-1 * pagey ) + "px";
+		
+		$('#blue').css('background-position', whattomove2);
+		
+		
+		whattomove2 =  (-1 * pagex + 300) + "px " + (-1 * pagey ) + "px";
+		$('#red').css('background-position', whattomove2);
+		
+		
+		whattomove2 =  (-1 * pagex + 200) + "px " + (-1 * pagey ) + "px";
+		$('#green').css('background-position', whattomove2);
+		//ending space effect
+		
+		
+		//handleing the rocket movement
+		if(countup == true)
+		{
+			
+			if(margintomove > 150) 
+			{
+			countup = false;
+				
+			}
+			
+			margintomove++;
+			
+		} else 
+		{
+			if (margintomove < 5) 
+			{
+			countup = true;
+				
+			}
+			
+			margintomove--;
+			
+			
+		}
+		
+		
+		
+		$('#rocket').css('margin-left', margintomove);
+		//ending rocket effect
+		
+		
+		
+	
+		
+		
+		});
+		
+		
+		
+		
+		
+		
+		
+    </script>
+	
+
+</div>
+
+<div id="Footer">
+
+	
+	<ul>
+    	<li>Hosted By Pembo210 - </li>
+    	<li>Created By 4moves - </li>
+        <li><a href="http://www.reddit.com/message/compose?to=4moves&subject=Dogecoin%20Timeline&message=Add%20this%20to%20Dogecoin%20Timeline">Ask for Changes</a> - </li>
+        <li><a href="https://github.com/nice1013/dogecointimeline">GitHub</a></li>
+    </ul>
+
+
+</div>
+
+</div> <!--endind body 2-->
+</body>
+</html>

@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* CSS Document */
+@media (min-width: 0px) and (max-width: 650px){
+
+.divider2 {
+	display:none;
+
+} 
+
+
+.inexclass { 
+	min-width:320px;
+	width:100%;
+
+}
+
+
+.extraclass { 
+	width:100%;
+	min-width:320px;
+} 	
+
+
+
+#aboutusinex img { 
+	min-width:150px; 
+	min-height:150px;
+	} 
+
+
+.aboutusholder {
+
+width: 100%;
+
+}
+
+} 
+
+
+
+@media (min-width:700px) and (max-width: 850px) { 
+
+	
+.aboutusholder {
+
+width: 100%;
+
+}
+	
+	.extraclass { 	
+	width:100%;
+	}
+}
+
+@media (min-width:850px) { 
+
+	
+	
+	.extraclass { 	
+	width:65%;
+	}
+}
+
+
+
+.std 
+	{
+	padding:10px; 
+	background:#fff; 
+		
+		
+	}
+
+.divider 
+	{ 
+	clear:both;
+	border-bottom:thin solid #09F;
+	} 
+
+
+.extraclass a 
+	{
+	color:#06F;
+	}
+
+
+
+
+.extraclass
+	{
+	padding:10px;
+	clear:both;
+	float:left; 
+	position:relative;
+	}
+
+.pagehead h1 { 
+		font-size:24px;
+		font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		color:#06F;
+
+} 
+
+.pagehead{ 
+
+
+		padding:0px;
+		height:1%;
+		position:relative;
+		width:100%;
+
+		
+} 
+
+
+.inexclass p {
+	text-indent:25px;
+}
+
+.inexclass img{ 
+		float:left;
+		height:150px;;
+		width:25%;
+		position:relative;
+		padding:5px;
+} 
+
+
+
+.inexclass {
+	
+	height:auto;
+	min-height:150px;
+	background:#FFF; 
+	width:100%;
+	overflow:hidden;
+	float:left;
+	position:relative;
+	padding:10px;
+    } 
+
+
+.inexclass h4 {
+	font-size:14px;
+	font-style:italic;
+	display:inline;
+} 
+
+.inexholder  {
+	width:100%;
+	position:relative;
+	padding:10px;
+	background:#aaa;
+	float:left;
+
+	
+} 
+
+.aboutusholder { 
+	height: 100%; 
+	width: 75%;
+	float:left;
+	padding:10px;
+
+} 
+
+.aboutusheader { 
+	width:100%;
+	height:19%;
+	float:left;
+	color:#06f;
+	position:relative; 
+	bottom:5px; 
+	left:5px;
+	
+} 
+
+.aboutusheader a
+	{
+	text-decoration:none;	
+	}
+
+
+.graybox { 
+		background-color: #eee;
+		margin:.1em;
+		width:99%;
+		height:5em;
+		float:left;
+		
+
+}

@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+/* more menu css properties are located in Currenttab.css */
+
+
+
+
+@media (min-width: 0px) and (max-width: 650px){
+
+
+.menu { 
+	width:100%; 
+	float:left;
+	background-color:#000;
+	min-width:330px;
+
+} s
+	
+.list{  
+
+
+	} 	
+	
+	
+	
+	
+}
+
+.menushell { 
+
+background-color:#0071bc;
+line-height:5px;
+}
+
+.menushell2 { 
+line-height:5px;
+background-color:#aaaaaa;
+}
+
+
+.menushell3 { 
+line-height:5px;
+background-color:#dddddd;
+}
+
+.menu { 
+	position:relative;
+	width:100%; 
+	margin-left:auto; 
+	margin-right:auto;
+	height:2em;
+	float:left;
+	clear:both;
+	overflow:hidden;
+	background-color:#fff;
+
+} 
+
+.list{ 
+ 
+	font-size:3em;
+
+    width:20%;  
+	height:2em;
+    float:right;
+    text-align:center; 
+	overflow:hidden;
+	margin-right: 0px;
+	position:relative;
+	border:1px solid #fff;
+	padding:2px;
+
+
+}  
+
+.list:hover { 
+	background:url(../images/blueintowhitecenterbackground.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	border:0px solid #FFF;
+	
+	
+}
+
+.list:hover a {
+	
+	color:#06f;
+	
+	
+}
+
+
+.list a{
+	font-size:1.7em;
+	color:;
+	text-decoration:none;
+	font-weight:bold;
+	text-align:center;
+	
+} 

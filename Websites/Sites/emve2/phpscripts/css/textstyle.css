@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document 
+	color design help by http://colorschemedesigner.com/#0y51Tw0w0w0w0
+	*/
+
+
+/* ---------Text stylings; Color, size, font, styles, spacing, shadows, other text effects ---------- */ 
+
+.para p
+	{
+	text-indent:25px;	
+	}
+
+#askfooter , #askfooter a
+	{
+	color:#fff;
+	}
+
+#askfooter
+	{
+		text-align:center;	
+	}
+
+footer p 
+	{
+	text-align:center;
+	color:#fff;	
+	}
+
+.bottom40 
+	{
+	text-align:right;	
+	}
+
+.bottom40  h1
+	{
+	display:inline-block;
+		
+	}
+
+.para form {
+	display:inline-block;
+		
+	
+}
+
+
+#reviewheadername { 
+	text-align:right; 
+	color:#03F;
+
+}
+
+
+.editor td
+	{
+	text-align:left;	
+		
+	}
+	
+#cap
+	{
+	text-align:left;	
+		
+	}
+	
+.editor th
+	{
+	text-align:right;
+	}
+
+
+#qb { 
+	color:#fff; 
+	font-size:3.0em;
+	font-weight:bolder;
+
+}
+
+
+#tableform {
+	text-align:center;	
+	
+}
+
+
+#questions {
+	text-align:left;	
+}
+
+
+
+.askwords , #ask h1
+	{
+	font-size:3em;
+	font-weight:bolder;	
+		
+		
+	}
+
+
+#ask h1 , .askwords, #ask2
+	{
+	color:#fff;
+	text-align:left;	
+	display:inline;
+	}
+
+#signup td, #askholder, #ribbon
+	{
+	text-align:center;	
+		
+	}
+
+header h1 
+	{
+	font:"Courier New", Courier, monospace;
+	letter-spacing:5px;
+	font-size:50px;
+	font-weight:bolder;
+	} 
+	
+header a:visited, header a { 
+	color:black;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:20px;
+
+} 
+
+body 
+	{ 
+	font:Arial, Helvetica, sans-serif; 
+	} 
+
+ul, li 
+	{ 	
+	list-style:none;
+	} 
+
+
+#sidehelp 
+	{
+	font-weight:900; 
+	text-align:center;
+	-webkit-text-fill-color: red; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:  #000;
+   
+    -webkit-text-stroke: 1px #f33;
+    color: red;
+    text-shadow:
+    -4px -4px 10px #fff,
+     -2px -2px 10px #fff,  
+      2px -2px 10px #fff,
+      -2px 2px 10px #fff,
+       2px 2px 10px #fff;
+		
+	}
+	
+#cname 
+	{
+	font-stretch:semi-expanded;
+   color: white;
+   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color:  #fff;
+   
+   -webkit-text-stroke: 2px #fff;
+   color: white;
+   text-shadow:
+       -4px -4px 20px #444,
+     -2px -2px 10px #444,  
+      2px -2px 10px #444,
+      -2px 2px 10px #444,
+       2px 2px 10px #444;	
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+#tech {
+	font-stretch:semi-expanded;
+   color: white;
+   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color:  #fff;
+   
+   -webkit-text-stroke: 2px #fff;
+   color: white;
+   text-shadow:
+       -4px -4px 20px #111,
+     -2px -2px 10px #111,  
+      2px -2px 10px #111,
+      -2px 2px 10px #111,
+       2px 2px 10px #111;
+
+}	
+
+
+#mirror { 
+
+   color: white;
+   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: #fff
+;
+  
+   -webkit-text-stroke: 2px #fFF;
+   color: white;
+   text-shadow:
+        text-shadow:
+       4px 4px 20px #111,
+     -2px -2px 10px #111,  
+      2px -2px 10px #111,
+      -2px 2px 10px #111,
+       2px 2px 10px #111;
+
+}	
+
+#nav a 
+	{
+	color:#fff;	
+	font-size:24px;
+	}
+	
+
+header * #emve { 
+	text-align:center;
+} 
+
+
+
+/* mirror effect for the last E in EMVE */
+header * #mirror
+	{
+     display:inline-block; 
+    -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -o-transform:matrix(-1, 0, 0, 1, 0, 0);
+	}

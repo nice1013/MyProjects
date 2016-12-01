@@ -1,0 +1,22 @@
+.valueLabels {
+	font-size:70%;
+	color:black;
+}
+div.valueLabelLight {
+	opacity:0.01;
+	background-color: white;
+	border:none;
+	position:absolute;
+}
+
+#legend { 
+position:relative;
+left:0px;
+
+}
+
+div.valueLabel {
+	position: relative;
+	border:none;
+}
+

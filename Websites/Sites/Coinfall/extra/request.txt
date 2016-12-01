@@ -1,0 +1,24 @@
+* Hostname was found in DNS cache
+*   Trying 198.187.31.254...
+* Connected to coinfall.pw (198.187.31.254) port 2083 (#0)
+* SSL connection using TLSv1.2 / AES256-GCM-SHA384
+* Server certificate:
+* 	 subject: OU=Domain Control Validated; OU=PositiveSSL Wildcard; CN=*.web-hosting.com
+* 	 start date: 2014-02-06 00:00:00 GMT
+* 	 expire date: 2015-02-20 23:59:59 GMT
+* 	 issuer: C=GB; ST=Greater Manchester; L=Salford; O=COMODO CA Limited; CN=COMODO RSA Domain Validation Secure Server CA
+* 	 SSL certificate verify result: self signed certificate in certificate chain (19), continuing anyway.
+> GET /json-api/cpanel?cpanel_jsonapi_module=ZoneEdit&cpanel_jsonapi_func=fetchzone&cpanel_jsonapi_version=2&domain=coinfall.pw& HTTP/1.1
+Host: coinfall.pw:2083
+Accept: */*
+Authorization: Basic Y29pbmZ6Z2s6cC1zQmFHS1E/R1hmUg==
+
+< HTTP/1.1 200 OK
+< Server: cpsrvd/11.44.1.23
+< Connection: close
+< Date: Sun, 25 Jan 2015 01:41:48 GMT
+< Cache-Control: no-cache
+< Content-type: text/plain; charset="utf-8"
+< Content-Length: 4200
+< 
+* Closing connection 0

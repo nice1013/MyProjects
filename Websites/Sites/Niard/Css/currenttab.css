@@ -1,0 +1,31 @@
+.ctab {  
+	/*background:url(../images/blueintowhitecenterbackground.jpg);
+	*/
+
+
+		-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    width:20%;  
+	height:100%;
+    float:right;
+    text-align:center; 
+	overflow:hidden;
+	margin-right: 0px;
+	position:relative;
+	border-right:5px #fff solid;
+	border-left:5px #fff solid;
+	
+
+
+}  
+
+.ctab p , .ctab a{ 
+	font-size:1.3em; 
+	font-weight:bold;
+	color:#06f;
+	text-align:center;
+	text-decoration:none;
+
+} 

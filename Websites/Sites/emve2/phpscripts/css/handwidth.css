@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document 
+	color design help by http://colorschemedesigner.com/#0y51Tw0w0w0w0
+	*/
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+  /* some CSS here */
+
+
+/* ----------------- heights and widths ----------------------------------*/
+
+#askfooter 
+	{
+	height:25px; 
+	
+		
+	}
+
+header {
+	width:100%;	
+	
+}
+
+.ihold img 
+
+	{
+	width:100%; 
+	height:400px;	
+
+	}
+
+.ihold  
+	{
+	
+
+	
+	
+
+	
+	}
+
+
+.questions p 
+	{
+		max-height:20px;	
+		
+	}
+
+.top60
+	{
+	height:60%;	
+	}
+
+	
+.bottom40 
+	{
+		height:40%;
+	}
+
+
+.qbox 
+	{
+	height:50px;
+	max-height:50px;	
+		
+	}
+
+.questions 
+	{		
+	}
+
+
+.bubble {
+	width:400px;	
+	
+}
+
+
+.tleft
+	{
+	text-align:left;	
+		
+	}
+
+
+.editor 
+	{
+	width:98%;	
+		
+	}
+
+.editor table
+	{
+	width:100%;
+		
+	}
+
+.ask2
+{
+	height:50px;
+}
+
+#ask {
+	height:100px;	
+	
+}
+
+#qb { 
+	width:25%; 
+	height:44%;
+} 
+
+
+
+#concernta { 
+	width:69%; 
+	height:40%;
+	max-height:40%;
+	max-width:69%;
+
+} 
+
+#nav a
+	{
+	height:25px; 
+	width:15%;	
+		
+	} 
+
+
+#bodycontent { 
+	height:auto; 
+
+	width:100%;
+
+} 
+
+
+
+
+
+footer, #ribbon table { 
+	width:100%; 
+} 
+
+header * #emve { 
+	width:400px;
+
+} 
+
+.para 
+	{
+	width:95%; 
+
+
+
+	}
+
+
+
+#ask2;
+	{
+	width:100%;
+		
+	}
+	
+	header {
+	height:150px;
+}
+
+}

@@ -1,0 +1,57 @@
+<div class="feedbackdiv "> 
+
+<h2>Feedback</h2> 
+
+<hr /> 
+
+<p> 
+First of all, let us take the time to thank you for choosing Niard Drain. If you could Please fill out our short questionaire. 
+
+</p> 
+
+<hr style="margin:15px;"/>
+
+<form action="index.php?p=ste" method="post" >
+<table style="width:100%;">
+<tr> 
+<td class="lable">Name:</td>
+<td class="def"> 
+<input type="text" name="fname"  size="15"> 
+</td> 
+</tr> 
+<tr> 
+<td class="lable">How would you rate us?</td>
+<td class="def"> 
+<select name="rating">
+<option value="1">1</option> 
+<option value="2">2</option> 
+<option value="3">3</option> 
+<option value="4">4</option> 
+<option value="5">5</option> 
+</select>
+
+</td> 
+</tr> 
+<tr>
+<td colspan="2">
+<textarea style="width:100%; max-width:600px; max-height:300px;" name="comments" cols="25" rows="5">
+</textarea>
+</td> 
+</tr> 
+<tr>
+<td colspan="2" style="text-align:center">
+<input type="submit" name="submit" value="submit">
+</td> 
+</tr> 
+<tr> 
+<td colspan="2" style="text-align:center;">
+<h4>Thank You!</h4>
+</td>
+</tr> 
+
+</table> 
+</form>
+
+
+
+</div>

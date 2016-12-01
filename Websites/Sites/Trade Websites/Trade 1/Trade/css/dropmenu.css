@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+.homeextra {
+	
+	display:none;
+	z-index:999;
+	position:absolute;
+		
+}
+
+#homelink:hover .homeextra {
+	
+	display:block;
+		
+	
+}
+
+
+#nav {
+
+padding-left:1em;
+	
+}
+
+#nav ul li {
+float:left;
+width: 80px; 
+display:block;
+list-style:none;
+background:#000;	
+}
+
+#nav a {
+text-decoration:none;
+}
+
+#nav {
+		border-bottom-left-radius:0px;
+	    border-top-left-radius:0px; 
+	    border-top-right-radius:0px; 
+	    border-bottom-right-radius:0px;
+	
+}

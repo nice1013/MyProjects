@@ -1,0 +1,449 @@
++Driver
+
+
+Inside the Delivery App 
+
+Lingo To know: 
+
+Shop: 		
+	refers to the business post delivery jobs.
+
+
+DTime Logs:	
+	refers to a log of Specific events that will happen in a Delivery's life time. 
+		--Submit time of delivery
+		--Suggested Time of Pickup
+		--Time of when a Driver was assign to delivery
+		--Arrival Time of Driver to Shop 
+		--Leave Time of Driver from Shop
+		--Calculated Delivery Time of Arrival 
+		--Actual Time of Arrival 
+		--Driver Return Time from delivery (if required) 
+		--Delivery Completed Time 
+			(calculated once driver leaves area of customer or driver submits complete delivery Button) 
+					
+
+
+
+Main Parts:	
+	There Are Three main parts:
+		1) the Restauraunt service 
+			[Who places requests a driver for a delivery they have] 
+
+		2) the Driver / Contractor service 
+			[who confirms, or bids for a delivery, and then delivers item]
+
+		
+		3) +1Driver Servive 
+			[who confirms that a driver is coming. If no driver bids, will either employ
+			a full time driver, or increase bid points]
+	
+	
+
+
+
+1) Business Side >>>>>>>>>
+
+
+System Requirements:	Android device. 
+			Internet Connection. 
+
+
+
+Information Requirements:	Business Name
+				Business Address (Street State City Zip)
+
+
+
+Purpose: 	>The business side of the app is to submit new deliveries; 
+		>View Past Jobs.
+		>View Live Driver Position, and Driver's Delivery Queue. (From within Map View)
+
+
+		
+>Submit new deliveries
+
+Purpose: To instantly let drivers know there will soon be a delivery at a location.
+		
+
+
+Required Data for New Deliveries:
+	#Basic Delivery Information:
+		--Address (Street) 
+
+		--Cash or Credit
+			(if cash, price of delivery)
+
+		--Time To Arrive
+			(This is up to the shop to decide when
+			the driver should arrive. We will impose 
+			penalties on drivers and shops that hold
+			up the process. Ideally the shop will 
+			pick a time in minutes later format 
+			and if the driver is at fault. he will 
+			be discapline at a later date. If the store
+			is holding the driver up, the store will pay 
+			the equivalent in hourly wages). 
+
+
+				
+	#Extra information For Calculation Purposes:
+	
+		--Location of Shop 
+			(City, State and Street Address)
+
+
+
+
+
+		
+			
+>View Past Jobs 
+
+Purpose: To see all deliveries that +Drivers were involved with, so that they can verify anything they want.
+
+
+Required Data:
+
+	#List Account log files 
+		--List Entries of past Jobs
+			(DTime logs, Price, Type of Payment, comments, Address) 
+
+	#Map View Account log files 
+		--Map View Entries of past Jobs
+			(DTime logs, Price, Type of Payment, comments, Address) 
+		**NOTE**
+		Color coordinated based on price scale 
+		**NOTE**
+
+
+
+>View Live Driver Position. (From within Map View)
+
+Purpose: To check on driver and ensure that they are on they way to their delivery or to the store. However, as soon as the 
+	 driver is done with store delivery the store owner will be unable to view drivere anymore. 
+
+
+Required Data: 
+
+	#Store Current Driver List 
+		(Driver Ids, Driver Status)
+	
+	#Map View Current Driver Position Log
+		(Gps Location, Time of Location, Current Destination)
+
+
+
+
+
+
+
+
+
+2) Driver Side >>>>>>>>>>>>>>>>>>>>>>>>
+
+System Requirements:	Android Powered Cell Phone 
+			Internet Connection. 
+
+Information Requirements: 	
+				--Phone
+				--Current Position
+				--Type Of Pay 
+
+
+Purpose: 	>To view next delivery, along with any side notes.
+		>To view past deliveries in a map view and list view. 
+		>To view current pay, and other delivery statistics.
+	 
+
+Required Data: 	--Position
+		--Status (Working, Off-Duty, Break)
+
+
+
+
+
+
+
+
+3) +1Driver 
+
+Purpose: >To facilatate and manage deliveries, and drivers in a Quick and Seemless manner. 
+	 >To Ensure Shops, and Drivers, are happy with everything that each other is 
+	doing. 
+
+
+
+
+
+
+
+ 
+-=-=-=-=End Inside Delivery App -=-=-=-=-=-=-=
+
+
+The Numbers For Both Sides 
+
+Shops waste money employing drivers that have to sit
+and wait for a delivery which may, or may-not happen. 
+A shop can waste hundreds of dollars each year on do-nothing drivers. 
+And Drivers don't benifit eiter during slow times in the day, since 
+they make most of their money from tips.
+
+The Shop Numbers 
+
+**Note** 
+Although the minimal wage is 7.25 i have worked, 
+and know of places that pay only $5 an hour. And in even more 
+extreme cases $3 an hour. 
+With that in mind we use $5 dollars as our base amount to calculate 
+pay-per Miles
+*********************************
+
+A Shop Example 
+150-200 deliveries a day
+4 drivers
+
+	Driver Statistics
+	##################################
+	Driver#1 
+
+	[hourly pay = $5.00]
+ 	Time:all morning 8 Hours  (8  * hourly pay = $40.00)
+
+	[delivery charge = $1.00]
+	Delivery Charges: 18avg   (18 * delivery charge = $18.00) 
+	
+	[Avg_BadTipDay = 2]
+	Tips = Avg (18 * Avg_BadTipDay = $36.00)
+
+	[Avg Miles] 
+	Miles = 80 miles. (High Estimate) 
+
+	Total Take = $94.00
+
+	
+	################################## 
+	Driver#2 
+	[hourly pay = $5.00]
+ 	Time:after noon 6 Hours  (6  * hourly pay = $30.00)
+
+	[delivery charge = $1.00]
+	Delivery Charges: 24avg   (24 * delivery charge = $24.00) 
+	
+	[Avg_BadTipDay = 2]
+	Tips = Avg (24 * Avg_BadTipDay = $48.00)
+
+	[Avg Miles] 
+	Miles = 100 miles. (High Estimate) 
+
+	Total Take = $102.00
+
+
+	################################## 
+	Driver#3
+	[hourly pay = $5.00]
+ 	Time:after noon 6 Hours  (6  * hourly pay = $30.00)
+
+	[delivery charge = $1.00]
+	Delivery Charges: 24avg   (24 * delivery charge = $24.00) 
+	
+	[Avg_BadTipDay = 2]
+	Tips = Avg (24 * Avg_BadTipDay = $48.00)
+
+	[Avg Miles] 
+	Miles = 100 miles. (High Estimate) 
+
+	Total Take = $102.00
+	
+
+	################################## 
+	Driver#4
+	[hourly pay = $5.00]
+ 	Time:night 8 Hours  (8  * hourly pay = $40.00)
+
+	[delivery charge = $1.00]
+	Delivery Charges: 30avg   (30 * delivery charge = $30.00) 
+	
+	[Avg_BadTipDay = 2]
+	Tips = Avg (30 * Avg_BadTipDay = $60.00)
+
+	[Avg Miles] 
+	Miles = 110 miles. (High Estimate) 
+
+	Total Take = $130.00
+
+
+Quick Stat List
+Driver#1 = 94.00
+Driver#2 = 102.00
+Driver#3 = 102.00 
+Driver#4 = 130.00
+Shop pays all drivers = $140.00 just for friday.
+
+
+
+--------
+Why were great
+-------
+The only time drivers and shops are making money together is 
+when its busy. So what we do, manage drivers for multiple shops, 
+and concentrate the work so that all parties get more for their money. 
+
+standard pay for drivers for 8 hours($40.00) 
+	--divided by-- 
+Highest avg miles per 8 hours (110)
+
+= $.36363636... per mile. (at least)
+
+
+
+So if we convert all the numbers and adjust the number for 3 shops this is what we get 
+
+
+Shop#1 + shop#2 + shop#3 
+
+450 deliveries a day
+
+
+	Shift1: All Morning 8 hours (54 deliveries)
+	Shift2: All Afternoon 8 hours (234 deliveries) 
+
+With our decentralized delivery system, We can increase the rate in which 
+we can deliver goods By allowing drivers to come to your place and pick up 
+the delivery, take it to the customers house,and instead of returning to your place,
+returning to the closest first delivery we can save alot of time. 
+
+So WE KNOW, Again
+a driver can pull 30 deliveries in an 8 hour period with decent lee-way. However due to demand, it hardly reaches that. 
+
+Reason why: 
+Driver#1 always pulls low, as the morning to afternoon isn't as busy. 
+
+Driver#2 and #3 have a great amount per hour, but on somedays, there is no demand and it seems they sit at 
+the place all day. 
+
+Driver#4 is there during the rush, and has the night all to himself, so he gets a few more than anyone else. However, 
+because demand is low, his throughput isn't as good as the people who are just there for the rush. 
+
+
+
+
+
+
+So there is some demand, but drivers dont always get a good deal, and shops dont get as good of bang for their
+buck. So the Solution. 
+
+If drivers handle 30 a shift, here how we can save some money.
+
+Morning Shift Consist of 54 Deliveries. If a driver can handle 30Dph clearly 2 people 
+will be able to handle this shift.
+
+and if Afternoon consist of 234 clearly 8 people can handle this. 
+
+
+
+
+so lets see the new numbers for all parties involved. 
+
+
+SHOPS---------------
+
+Shop#1 paid  $70.90 
+[390 miles / 2 * $.363636 = Estimated Shop Mileage Payment * $.363636 = 195 * $.363636 = $70.90]
+
+All Shops combined paid $212.70 instead of $420.00 a total 50% savings. 
+
+
+
+
+
+Drivers----------------
+
+
+1st shift pulls $110.10 per shift. 
+[54dels / 2drives = 27 + 2 * 27 + 80 * .36363636 = 27 + 54 + 29.10 = $110.10 per shift]
+
+second shift pulls $123.00 per shift.
+[234del / 8drivers = 29delspershift = 29 + 2 * 29 + 100 * .36363636 = 29 + 58 + 36 = 123.00] 
+
+As you can see Driver make the same amount of money and shops save a little. 
+But thats without our system in play. 
+
+
+
+
+
+
+
+
+
+GOING SUPER SAYIAN 
+
+Algorythms will boost the production of drivers by eliminating the need to return to the orignal delivery shop. 
+
+Problems CASH, CREDIT CARDs, how will we deal with this. 
+
+For Cash, Our Drivers will pay for the order before taking the delivery. 
+
+For Credit Cards that need validation, A Delivery Id number will be written on reciept. No updates Can be made 
+or they have notify shop immediately. The CCVR is kept with driver until reaching a new shop, where it is deposited 
+into a receipt bank. A Head Driver will circulate stores, and make sure all shops get their reciepts. 
+
+Shop Responsibilities: To gather all items for delivery and have ready for driver.
+			
+
+Driver Responsibilities: To make sure soda is with delivery if nessary. To make sure dels make it to customer. 
+			ensure CCVR are returned to a shop where CCVR's are ACCEPTED. 
+			
+
+
+What Happens if... 
+
+The Driver forgot the soda... 
+	The Driver Responsible will return and finished the delivery. 
+
+An item wasn't correct..... 
+	Any food item that is not correct or not with the delivery is the shop's responsibility.
+	The Shop will have to cast a redelivery at cost, and no food or items shall be returned to the shop. 
+
+The Driver was robbed of everything... 
+	The Driver was robbed of food and money. This is serious, call the cops, and report the incadent. 
+	Since Both Parties were affected, no one is refunded any money or damages. 
+
+The Driver was robbed of delivery..... 
+	We claimed responsibilities for 40% of the value of items are refunded to the shop provided by +Drivers. 
+
+
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

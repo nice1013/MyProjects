@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+margin:25px;	
+	
+}
+
+#column
+		{
+		width:800px;
+		float:left;
+		}
+div  {
+	clear:both; 
+		
+	
+}
+
+#placeholder {
+	width:800px;
+	height:325px;
+}
+
+html, body, table {
+	font-size:11px;	
+}

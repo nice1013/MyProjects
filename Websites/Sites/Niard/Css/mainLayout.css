@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+
+.twelve { font-size:12px; }
+
+.textr { text-align:right; }
+
+.textl { text-align:left; }
+
+.textc { text-align:center; }
+
+.italic { font-style:italic; }
+
+.cbox { background-color:#D7E0F7;
+		padding: .5em; }
+
+.comment { margin: 1.5em;
+		
+		 }
+		
+.comment table { 
+	width:100%;
+}
+
+.comment td { 
+	width:50%;
+}
+
+.fteen {font-size:1.4em; }
+
+.nblue { color:#06f; }
+
+.red { color:#F00; } 
+
+.blue { color:#09F; }
+
+.black { color:#000; } 
+
+.green { color:#0C3; } 
+
+.centert { text-align:center; }
+
+.centerm { margin:0px auto; } 
+
+.indent { text-indent:25px; }
+
+.etable { width:300px; }
+
+.sdc { 
+	line-height:4.0em; 
+	font-size:1.2em;
+}
+
+.rethome { 
+	margin-top:50px; 
+	position:absolute; 
+	bottom:25px; 
+	right:25px; 
+	font-size:24px;
+}
+
+div, #sidebar, #insidebar, img, .std {
+	box-sizing:border-box;
+	}
+	
+table {
+	border-spacing:0px;
+
+} 
+
+div, h1, img, p, table, td, th, tr, a, h2, h3, h4, h5, h6, ul, li, ol, hr
+	{ 
+	padding:0px; 
+	margin:0px;		
+	} 
+	
+
+.subtext
+	{
+	font-size:14px; 
+	font-family:'Times New Roman', Times, serif;	
+		
+	}
+
+body * p , td, p.feedbackdiv { 
+	font-size:14px;
+
+} 
+
+
+
+body {
+	font: Verdana, Arial, Helvetica, sans-serif;
+	height:100%;
+	width:100%;
+	margin: 0;
+	padding: 0;
+	background: no-repeat center center fixed; 
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size:contain;
+	
+
+}
+
+
+hr
+	{
+	border-color:#09F;
+	padding:0px; 
+	margin:0px;
+	margin-bottom:2.0em;
+	}
+
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+h4, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 0px;
+	padding-left: 0px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color:#414958;
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #4E5869;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+
+/* ~~ this container surrounds all other divs giving them their percentage-based width ~~ */
+.container {
+	
+	height:100%;
+	width:100%;
+	max-width: 1260px;/* a max-width may be desirable to keep this layout from getting too wide on a large monitor. This keeps line length more readable. IE6 does not respect this declaration. */
+	/* a min-width may be desirable to keep this layout from getting too narrow. This keeps line length more readable in the side columns. IE6 does not respect this declaration. */
+	background:none;
+	margin-left: auto;
+	margin-right: auto; /* the auto value on the sides, coupled with the width, centers the layout. It is not needed if you set the .container's width to 100%. */
+}
+
+
+
+
+
+html { 
+	background:#FFF; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size:cover;
+	height:100%;
+	width:100%;
+	
+
+}
+
+.footer { 
+clear:both; 
+width:100%; 
+float:left; 
+max-hieght:20px; 
+min-height:15px; 
+background-color:#CCC;
+border-top:.1em inset #000;
+text-align:center;
+
+} 
+
+
+
+

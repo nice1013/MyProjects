@@ -1,0 +1,309 @@
+@charset "utf-8";
+
+/* CSS Document 
+
+	color design help by http://colorschemedesigner.com/#0y51Tw0w0w0w0
+
+	*/
+
+
+
+/* ----------------- heights and widths ----------------------------------*/
+@media all and (max-width: 800px) and (min-width: 0px)
+{
+
+	#sixtyfive 
+		{
+		width:100% !important;	
+		float:left !important;
+		}
+		
+	#thirtyfive 
+		{
+		width:100% !important;	
+		float:left !important; 
+		margin-left:0px !important; 
+		margin-right:0px !important;
+		padding:0px !important;
+		position:relative !important; 
+		top: 0px !important; 
+		bottom:0px !important; 
+		left: 0px !important; 
+		right:0px !important;
+		}
+		
+	#spara {
+	margin-left:0px;	
+	}
+		
+	
+}
+
+#thirtyfive , #sixtyfive , .para , #nav td, div
+	{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	}
+
+
+body 
+	{
+	min-width:420px;
+	}
+
+#instalist 
+	{ 
+	min-width:350px;
+	width:50%;
+	}
+
+#askfooter 
+
+	{
+
+	height:25px; 
+	}
+
+
+
+header, #header {
+	width:100%;
+
+}
+
+
+
+.ihold img 
+	{
+	width:100%; 
+	height:400px;	
+	}
+
+
+
+
+
+.questions p 
+
+	{
+
+		max-height:20px;	
+
+		
+
+	}
+
+
+
+.top60
+
+	{
+
+	height:60%;	
+
+	}
+
+
+
+	
+
+.bottom40 
+
+	{
+
+		height:40%;
+
+	}
+
+
+
+
+
+.qbox 
+
+	{
+
+	height:50px;
+
+	max-height:50px;	
+
+		
+
+	}
+
+
+
+.questions 
+
+	{		
+
+	}
+
+
+
+
+
+.bubble {
+
+	width:400px;	
+
+	
+
+}
+
+
+
+
+
+.tleft
+
+	{
+
+	text-align:left;	
+
+		
+
+	}
+
+
+
+
+
+.editor 
+
+	{
+
+	width:98%;	
+
+		
+
+	}
+
+
+
+.editor table
+
+	{
+
+	width:100%;
+
+		
+
+	}
+
+
+
+.ask2
+
+{
+
+	height:50px;
+
+}
+
+
+
+#ask {
+
+	height:100px;	
+
+	
+
+}
+
+
+
+#qb { 
+
+	width:25%; 
+
+	height:44%;
+
+} 
+
+
+
+
+
+
+
+#concernta { 
+
+	width:69%; 
+
+	height:40%;
+
+	max-height:40%;
+
+	max-width:69%;
+
+
+
+} 
+
+
+
+
+
+
+#bodycontent { 
+
+	height:auto; 
+	width:100%;
+
+
+
+} 
+
+footer, #ribbon table { 
+
+	width:100%; 
+
+} 
+
+
+
+header * #emve { 
+
+	width:400px;
+
+
+
+} 
+
+
+
+.para 
+	{
+
+	width:100%; 
+
+	}
+
+
+
+
+
+
+
+#ask2;
+
+	{
+
+	width:100%;
+
+		
+
+	}
+
+	
+
+
+
+
+
+
+
+
+

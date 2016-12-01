@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+div {
+	font-size:12px;
+	
+}
+
+#top {
+	float:left; 
+	box-sizing:border-box; 
+	padding: 5px; 
+	width:50%; 
+	font-size:12px;
+}
+#controlconsole {
+float:right; 
+box-sizing:border-box; 
+padding: 5px; 
+width:50%; 
+position:relative;
+height:250px;
+ overflow-y:auto;
+	
+}
+
+#result {
+box-sizing:border-box; 
+padding: 5px; 
+border-top:solid 1px black;	
+	
+	
+}
+
+
+#resultholder {
+box-sizing:border-box; 
+padding: 5px; 
+border-top:solid 1px black;	
+width:100%; 
+height:450px;
+overflow-y:auto;
+	
+}
+
+
+#tradebutton {
+box-sizing:border-box; 
+width:150px;
+	
+}
+
+#time #clock {
+box-sizing:border-box; 
+background-color:#fff;
+	
+}

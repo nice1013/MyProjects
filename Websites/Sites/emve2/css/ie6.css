@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+header 	{
+	background-color:#FF1800;
+	height:150px;
+}
+
+body 	{
+
+}
+
+footer 	{
+	background-color:#FF1800;
+	height:25px;
+	width:100%;
+}

@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+.special * h2 
+	{
+	style="color:#06f; 
+	margin:0px; 
+	padding:0px;	
+	}
+
+.special {
+	background-color:#FFF; 
+	width:100%;
+	float:left;
+	position:relative;
+} 
+
+
+.special h4 {
+	font-size:14px;
+	font-style:italic;
+	display:inline;
+} 
+
+.special p {
+	text-indent:25px;	
+}

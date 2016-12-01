@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document 
+	color design help by http://colorschemedesigner.com/#0y51Tw0w0w0w0
+	*/
+
+/* ----------------- Paddings and margins ---------------------------------- */
+
+.spara 
+	{
+	margin:2px;	
+	}
+
+body 
+	{
+	margin:0 auto;	
+	}
+
+header 
+	{
+
+	}
+
+#askfooter 
+	{
+	padding:5px; 
+	
+		
+	}
+
+
+
+
+.para p 
+	{
+	margin-bottom:15px;	
+		
+	}
+
+.bubble {
+	padding:15px;
+	padding-left:50px;
+	padding-right:50px;	
+	margin-top:25px;
+	margin-bottom:25px;
+	margin:0px auto;
+}
+
+
+#topedit 
+	{
+	padding:3px;
+		
+	}
+
+
+#cap 
+	{
+	margin:0px auto;		
+	}
+
+.editor 
+	{
+	margin:0px auto;	
+	}
+
+.editor 
+	{
+	padding:15px;
+		
+	}
+
+
+#qb {
+	vertical-align:central;	
+	
+}
+
+
+.questions hr 
+	{
+	padding:0px; 
+	margin:0px;	
+		
+	}
+
+
+.questions { 
+	margin-top:5px;
+	padding:5px;
+
+} 
+
+#nav a 
+	{
+	padding:5px; 
+	margin:15px;	
+	}
+
+
+header #cname 
+	{
+	padding:15px;
+
+	}
+
+#bodycontent 
+	{ 
+
+	margin-top:5px;
+	} 
+	
+div, h1, img, p, table, td, th, tr, a, h2, h3, h4, h5, h6, ul, li, ol, html
+	{ 
+	padding:0px; 
+	margin:0px;		
+	} 
+
+body 
+	{ 
+	padding:1px;
+	} 
+
+#sixtyfive 
+	{
+	
+		
+	}
+
+body 
+	{ 
+	padding-top:15px;	
+	} 
+	
+footer 
+	{ 
+	margin-top:25px;
+	} 
+	
+header * #emve { 
+
+} 
+
+
+.para , #ask
+	{
+	margin-top:10px;
+	padding:15px;
+	
+	}
+	
+#signup 
+	{
+	margin-top:5px; 
+	padding:10px;	
+	}
+
+	
+#askholder table, #ribbon td { 
+	margin:0px auto;
+}
+
+

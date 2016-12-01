@@ -1,0 +1,9 @@
+﻿/* @font-face kit by Fonts2u (http://www.fonts2u.com) 
+modified for site niard drain.*/ 
+@font-face {
+
+font-family:beer;
+src:url("ALGERIA.woff") format("woff"),url("ALGERIA.svg#Algeria") format("svg"),url("ALGERIA.eot?") format("eot"),url("ALGERIA.ttf") format("truetype");
+
+
+}

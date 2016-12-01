@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document 
+	color design help by http://colorschemedesigner.com/#0y51Tw0w0w0w0
+	*/
+
+/* ----------------- Borders, box shadows and outlines ----------------- */ 
+
+
+#ask 
+	{
+	border: 1px solid #000; 	
+	}
+
+header {
+		box-shadow:0px -5px 25px #F0A75E,
+		0px 10px 50px #000;
+	    border: #000 solid 1px;
+	   } 
+	   
+header * #emve { 
+	box-shadow:0px 1px 10px #000,
+				0px -1px 10px #000,
+				0px 1px 20px #aaa,
+				0px -1px 20px #aaa;
+	border-bottom-left-radius:25px; 
+	border-bottom-right-radius:25px; 
+	border-top-left-radius:25px; 
+	border-top-right-radius:25px; 
+	border:1px #000 solid;
+	
+
+} 
+	   
+	   
+#bodycontent 
+		{
+		box-shadow: 0px 5px 25px #000;
+	    border-bottom-left-radius:15px;
+	    border-top-left-radius:15px; 
+	    border-top-right-radius:15px; 
+	    border-bottom-right-radius:15px;
+	    border: #000 solid 1px;
+	   } 
+	   
+footer { 
+	border:1px solid #000;
+	} 
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------- Text Effects ----------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document 
+	color design help by http://colorschemedesigner.com/#0y51Tw0w0w0w0
+	*/
+
+
+/* ----------------- positions and floats and displays -----------------*/ 
+
+
+header, nav, article, footer, address {  
+    display: block;  
+} 
+
+
+.para 
+	{
+
+	float:left;
+
+
+	}
+
+
+
+#ask h1 
+	{
+	position:absolute; 
+	bottom:50%;
+	left:5%;	
+		
+	}
+
+
+.askwords 
+	{ 
+	position:absolute; 
+	bottom:50%; 
+	left:40%;
+	
+	} 
+
+#qb { 
+	position:absolute; 
+	right:5px; 
+	bottom:5px;
+
+} 
+
+#concernta  {
+	position:absolute; 
+	left:5px; 
+	bottom:5px;
+	
+}
+
+.questions , .para 
+	{ 
+	position:relative;
+	
+	}
+	
+.questions h5
+	{
+	position:absolute; 
+	right:5px; 
+	bottom:5px;
+	
+		
+	}
+
+
+#nav 
+	{
+	float:right;
+	position:absolute;
+	right:150px; 
+	bottom:20px;
+		
+	}
+
+
+
+
+
+header * #mirror
+	{
+	position:relative;
+	right:9px;
+	top:1px;
+	}
+
+
+h1 { 
+	
+} 
+
+footer, #cname { 
+	float:left;
+} 
+
+
+#bodycontent { 
+
+
+} 
+
+
+header * h1
+	{
+	display:inline;
+	}
+	
+
+
+#tech 
+	{ 
+	position:relative; 
+ 	
+
+	
+	}	
+
+
+header, header h1 
+	{ 
+	position:relative;
+	}
+
+
+
+#sixtyfive { 
+	float:left; 
+	width:65%;
+	position:relative;
+
+} 
+
+#thirtyfive { 
+	float:right; 
+	width:35%;
+	position:relative;
+
+} 
+
+#ask , #askholder
+	{
+	position:relative;
+		
+	}
+
+
+
+
+
+
+

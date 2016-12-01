@@ -1,0 +1,180 @@
++Driver
+
+Delivery App 
+
+Lingo To know: 
+
+Shop: 		
+	refers to the business post delivery jobs.
+
+
+DTime Logs:	
+	refers to a log of Specific events that will happen in a Delivery's life time. 
+		--Submit time of delivery
+		--Suggested Time of Pickup
+		--Time of when a Driver was assign to delivery
+		--Arrival Time of Driver to Shop 
+		--Leave Time of Driver from Shop
+		--Calculated Delivery Time of Arrival 
+		--Actual Time of Arrival 
+		--Driver Return Time from delivery (if required) 
+		--Delivery Completed Time 
+			(calculated once driver leaves area of customer or driver submits complete delivery Button) 
+					
+
+
+
+Main Parts:	
+	There Are Three main parts:
+		1) the Restauraunt service 
+			[Who places requests a driver for a delivery they have] 
+
+		2) the Driver / Contractor service 
+			[who confirms, or bids for a delivery, and then delivers item]
+
+		
+		3) +1Driver Servive 
+			[who confirms that a driver is coming. If no driver bids, will either employ
+			a full time driver, or increase bid points]
+	
+	
+
+
+
+1) Business Side >>>>>>>>>
+
+
+System Requirements:	Android device. 
+			Internet Connection. 
+
+
+
+Information Requirements:	Business Name
+				Business Address (Street State City Zip)
+
+
+
+Purpose: 	>The business side of the app is to submit new deliveries; 
+		>View Past Jobs.
+		>View Live Driver Position, and Driver's Delivery Queue. (From within Map View)
+
+
+		
+>Submit new deliveries
+
+Purpose: To instantly let drivers know there will soon be a delivery at a location.
+		
+
+
+Required Data for New Deliveries:
+	#Basic Delivery Information:
+		--Address (Street) 
+
+		--Cash or Credit
+			(if cash, price of delivery)
+
+		--Time To Arrive
+			(This is up to the shop to decide when
+			the driver should arrive. We will impose 
+			penalties on drivers and shops that hold
+			up the process. Ideally the shop will 
+			pick a time in minutes later format 
+			and if the driver is at fault. he will 
+			be discapline at a later date. If the store
+			is holding the driver up, the store will pay 
+			the equivalent in hourly wages). 
+
+
+				
+	#Extra information For Calculation Purposes:
+	
+		--Location of Shop 
+			(City, State and Street Address)
+
+
+
+
+
+		
+			
+>View Past Jobs 
+
+Purpose: To see all deliveries that +Drivers were involved with, so that they can verify anything they want.
+
+
+Required Data:
+
+	#List Account log files 
+		--List Entries of past Jobs
+			(DTime logs, Price, Type of Payment, comments, Address) 
+
+	#Map View Account log files 
+		--Map View Entries of past Jobs
+			(DTime logs, Price, Type of Payment, comments, Address) 
+		**NOTE**
+		Color coordinated based on price scale 
+		**NOTE**
+
+
+
+>View Live Driver Position. (From within Map View)
+
+Purpose: To check on driver and ensure that they are on they way to their delivery or to the store. However, as soon as the 
+	 driver is done with store delivery the store owner will be unable to view drivere anymore. 
+
+
+Required Data: 
+
+	#Store Current Driver List 
+		(Driver Ids, Driver Status)
+	
+	#Map View Current Driver Position Log
+		(Gps Location, Time of Location, Current Destination)
+
+
+
+
+
+
+
+
+
+2) Driver Side >>>>>>>>>>>>>>>>>>>>>>>>
+
+System Requirements:	Android Powered Cell Phone 
+			Internet Connection. 
+
+Information Requirements: 	
+				--Phone
+				--Current Position
+				--Type Of Pay 
+
+
+Purpose: To instruct driver on his next delivery. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
