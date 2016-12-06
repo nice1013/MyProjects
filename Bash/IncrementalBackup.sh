@@ -2,6 +2,8 @@
 #Created by Ed Evanosich December 6th 2016.
 #This script will make a backup using the current date as an extension.
 #We use Rclone to backup to the most popular storage places. 
+#52[54 according to date's week's docs] weeks, 
+#plus 48 for hours in 2 days. Equals 100 backups. 
 
 
 #The first part of our Backup Name 
