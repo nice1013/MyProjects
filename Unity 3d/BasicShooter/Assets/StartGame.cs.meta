@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0450618c18c280d4b9d01065631e1f34
+timeCreated: 1481620061
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - newskin: {fileID: 11400000, guid: 291564f78efcfe7438f64ebb87452b04, type: 2}
+  - newskin2: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
