@@ -28,7 +28,7 @@ $marketData = getMarketData();
 solidifyMasterList($marketData);
 UpdateDataBase($marketData, 1);
 getrest($marketData);
-calculateShit();
+calculatestuff();
 */
 
 
@@ -661,7 +661,7 @@ $marketData = getMarketData();
 solidifyMasterList($marketData);
 UpdateDataBase($marketData, 1);
 getrest($marketData);
-calculateShit();
+calculatestuff();
 */
 ?>
 </html";

@@ -84,7 +84,7 @@ $db = new mysqli("localhost", "root", "", "trading");
 //check connection to database
 $query = "SELECT * FROM {$tablename} ORDER BY ID DESC limit 0,1";
 //exucute that queary
-$query_result=$db->query($query) or die("FUCK couldn't get last trade");
+$query_result=$db->query($query) or die("Oh well, couldn't get last trade");
 //test the results from the queary.
 
 $returnthismasterindex = mysqli_fetch_array($query_result, MYSQLI_ASSOC);
