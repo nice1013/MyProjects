@@ -73,7 +73,7 @@ $db = new mysqli("localhost", "root", "", "trading");
 
 //Insert row into the M2M table
 $query = "INSERT INTO $tablename ($MtoM, $P2P) VALUES ($M2MValue, $P2PValue)";
-$db->query($query) or die ("FUCk we couldn't get yo uthat");
+$db->query($query) or die ("Oh well, we couldn't get yo uthat");
 	
 	
 }//End InsertM2MCurrOps()
@@ -690,7 +690,7 @@ foreach($Currency as $month)
 		
 		  
 		  
-    $db->query($query) or die ("<br /><br />Calculate Shit Error::: Insert into P1<br /><br />");
+    $db->query($query) or die ("<br /><br />Calculate Shi.t Error::: Insert into P1<br /><br />");
 	$f++;
 	}
 

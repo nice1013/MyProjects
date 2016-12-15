@@ -57,7 +57,7 @@ function solidifyMasterList($marketin)
 		//start the var insertprimer for queary building, that will be used to insert curr data. 
 		$insertPrimer = "";
 		$MasterIndex = getMasterIndex(); //Get Master index
-		$sizeOfMasterIndex = count($MasterIndex);  //Convert that shit into an array
+		$sizeOfMasterIndex = count($MasterIndex);  //Convert that stuff into an array
 		//echo $MasterIndex[0]['Id'];
 		//will show 1; 
 		//this for loop will check if the database has any new entries. 
@@ -319,7 +319,7 @@ $TempPoll = $tempPoll;
 $marketData = getMarketData();
 //solidifyMasterList($marketData);
 //CheckCreateCogTable();
-echo"fuck google";
+echo"Hi google";
 //$temppoll = getPoll();
 //$t = $temppoll;
 //insertCog(++$t);

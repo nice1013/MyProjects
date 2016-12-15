@@ -18,7 +18,7 @@ if ($marketid != "")
 	//find the last change we recorded.
 	$query = "SELECT tradeto FROM $markettablename ORDER BY id DESC limit 0,1";
 	//exucute that queary
-	$query_result=$db->query($query) or die("FUCK couldn't get last trade");
+	$query_result=$db->query($query) or die("Oh well, couldn't get last trade");
 	$tradetotradenumbers = mysqli_fetch_array($query_result, MYSQLI_BOTH);
 
 	//test the results from the queary.
