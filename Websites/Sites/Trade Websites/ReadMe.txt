@@ -5,9 +5,9 @@ its fucking php and javascript. lol .
 
 
 autotrading/ 
-	is the ugly guts of the beast. oh yeah. no fucking comments. 
-	what type of asshole writes 1000s of lines of code and 
-	doesn't put comments. ME! in 2012. fucking asshole.
+	is the ugly guts of the beast. oh yeah. no comments. 
+	what type of programmer writes 1000s of lines of code and 
+	doesn't put comments. ME! in 2012. bad programmer.
 
 Trade/
 	is a pretty layer on top of the autotrading. 

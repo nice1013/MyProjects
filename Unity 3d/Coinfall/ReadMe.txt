@@ -4,5 +4,5 @@ It used to have leaderboards from google, but apparently through
 the updates that has become broken. I don't really care. It's 
 not like this game has ever made any money. Also this 
 game is before unity updated for google play services. 
-So i had to do a bunch of jar managing here to get the fucker
+So i had to do a bunch of jar managing here to get the thing
 to work properly.
