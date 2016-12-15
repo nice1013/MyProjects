@@ -29,7 +29,7 @@ if ($marketid != "")
 		//creating the market name for the new table
 		$markettablename = "market".$marketid;
 		$create_table = "SELECT * FROM $markettablename WHERE id >= $thisamount";
-		$query_result=$db->query($create_table) or die("FUCK couldn't get last trade 14");
+		$query_result=$db->query($create_table) or die("error, couldn't get last trade 14");
 		$tradetotradenumbers = array();
 		while($message = $query_result->fetch_assoc()){
 		   $tradetotradenumbers[] = $message;
@@ -46,7 +46,7 @@ if ($marketid != "")
 		//creating the market name for the new table
 		$markettablename = "market".$marketid;
 		$create_table = "SELECT * FROM $markettablename";
-		$query_result=$db->query($create_table) or die("FUCK couldn't get last trade 2");
+		$query_result=$db->query($create_table) or die("error, couldn't get last trade 2");
 		$tradetotradenumbers = array();
 			while($message = $query_result->fetch_assoc()){
 			   $tradetotradenumbers[] = $message;
